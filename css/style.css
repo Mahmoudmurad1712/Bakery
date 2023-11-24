@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ h2{
+   font-family: 'Alegreya', serif;
+
+ }
+ .clr {
+    clear: both;
+ }
+ 
+ .container {
+    width: 85%;
+    margin: auto;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ 
+ #home {
+    background: url("../images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+ }
+ 
+ #home .navbar  {
+    background-color: #0000009d;
+ }
+ 
+ #home .navbar .logo {
+    float: left;
+    width: 100px;
+ }
+ 
+ #home .navbar ul {
+    float: right;
+    list-style: none;
+ }
+ 
+ #home .navbar ul li {
+    display: inline-block;
+ }
+ #home .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    
+ }
+ 
+ #home .caption {
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+ }
+ 
+ #home .caption  h1 {
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+ }
+ 
+ #home .caption p {
+    padding: 15px 0;
+ }
+ 
+ #home .caption img {
+    max-width: 400px;
+ }
+ 
+ #home .caption .btn1 , #home .caption  .btn2 {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+ }
+ 
+ #home .caption .btn1 {
+    background-color: #C1AB84;
+ }
+ 
+ #home .caption .btn2 {
+    background-color: #FFFFFF;
+ }
+/* Start of about section  */
+ #about .about-img {
+   width: 50%;
+   float:left;
+   padding-top: 40px; 
+}
+#about .about-info h2{
+   padding-top: 50px;
+}
+#about .about-info {
+   width: 50%;
+   float: right;
+   padding-top: 80px;
+   padding:  30px;
+   line-height: 32px;
+}
+
+#about .about-info p {
+   margin-top: 25px;
+}
+
+
+/* end of about section  */
+/* Start of our-offer section  */
+#our-offer{
+   height: max-content;
+}
+ #our-offer .our-offer-img {
+   width: 50%;
+   float: right;
+   padding-top: 40px; 
+}
+
+#our-offer .our-offer-info {
+   width: 50%;
+   float: left;
+   text-align: center;
+   padding-top: 80px;
+
+}
+.our-offer{
+   height: 300px;
+}
+
+#our-offer .our-offer-info p {
+   padding:  30px;
+   line-height: 32px;
+}
+
+/* end of our-offer section  */
+
+ /* Start of Baking section */
+.baking {
+   padding: 100px 0;
+}
+
+.baking .container {
+   text-align: center;
+}
+
+.baking .baking-title h2 {
+   margin-bottom: 15px;
+}
+
+.baking .baking-title p {
+   margin-bottom: 20px;
+}
+
+.baking .baking-content .item {
+   width: 33.3333%;
+   float: left;
+   padding: 0 10px;
+}
+
+.baking .baking-content .item img {
+   width: 100%;
+}
+
+/* End of Baking section */
+/* Start of contact section  */
+#contact .contact-iframe {
+   width: 50%;
+   float: left;
+   padding-top: 90px; 
+}
+#contact .contact-info h2 {
+   padding-top: 60px;
+}
+#contact .contact-info {
+   width: 50%;
+   float: right;
+   padding-top: 40px;
+   line-height: 32px;
+}
+#contact .contact-info p {
+   margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+   #contact .contact-iframe,
+   #contact .contact-info {
+       width: 100%;
+       float: none;
+       padding-top: 0;
+   }
+}
+/* end of contact section  */
+/*  start of table section */
+.table {
+   display: flex;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   background-color: #403D38;
+   color: #fff;
+}
+
+.table .row p{
+   margin-top: 25px;
+   color: #7d878d;
+}
+
+.row {
+   flex: 1; /* توزيع المساحة بالتساوي بين العناصر */
+   padding: 10px;
+}
+.table .linear p{
+   text-decoration: underline;
+text-decoration-skip-ink: 6px;
+
+}
+
+/*  end of table section */
+
+/* start of footer section  */
+.footer {
+   margin-top: 25px;
+   text-align: center;
+   background-color: #8B4513;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer .footer-img{
+   width: 10%;
+   display: block;
+   margin: 0 auto;
+}
+
+.footer p {
+   margin: 25px 0;
+   text-align: center;
+}
+
+
+
+.social-icons {
+   text-align: center;
+}
+
+/* end of footer section  */
